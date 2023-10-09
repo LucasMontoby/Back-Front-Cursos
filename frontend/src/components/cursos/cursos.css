@@ -1,0 +1,27 @@
+.backGround {
+  padding-block: 1em;
+  padding-inline: 2em;
+}
+
+.titulo {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  margin-inline: auto;
+}
+.textoTarj {
+  border: lightgray solid 0.1em;
+  border-radius: 0.25em;
+  padding: 1em;
+}
+
+.textoTab{
+  font-size: 24px;
+  color: black;
+}
+

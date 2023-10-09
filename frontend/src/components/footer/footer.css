@@ -1,0 +1,92 @@
+.footer {
+  background-color: slategrey;
+  color: #ffffff;
+  width: 100%;
+  height: 20rem;
+  padding: 5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logofoot {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 80px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+
+.itemsFooter {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.link {
+  align-items: center;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: medium;
+  margin: 0.5rem 2rem;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: none;
+}
+
+.direFooter h5 {
+  font-weight: lighter;
+  padding: 2rem 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+.reservaFooter {
+  font-size: 2rem;
+  background-color: #dd0832;
+  color: white;
+  font-weight: 700;
+  border: solid #dd0832 0.25rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 8px 3px #3b3b3b;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.reservaFooter:hover {
+  background-color: #cc0832;
+  border: solid #cc0832 0.25rem;
+  box-shadow: 3px 3px 8px 3px #3b3b3b;
+  color:#ffffff;
+}
+
+.reservaFooter:active {
+  background-color: #cc0832;
+  border: solid slategray 0.25rem;
+  border-radius: 1rem;
+  box-shadow: inset 3px 3px 8px 3px #3b3b3b;
+  color:#ffffff;
+}
+
+.firma {
+    background-color: #000000;
+    text-align:right;
+    justify-content:flex-end;
+    color: #ffffff;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    display:inline-flex;
+    float:inline-end;
+    width: 100%;
+}
+
+.espacio {
+    padding-right: 0.5rem;
+}

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.barra {
+  height: 10rem;
+  width: 100%;
+  background-color: #0066cc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  box-shadow: 0px 8px 9px -9px #3b3b3b;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  margin-left: 10rem;
+  margin-top: 1rem;
+
+}
+
+.logo img {
+  width: 100px; /* Ajusta el tamaño deseado */
+  height: 100px; /* Ajusta el tamaño deseado */
+  border-radius: 10%; /* Aplica bordes redondos */
+}
+
+
+.navbar {
+  display: inline-block;
+  align-items: center;
+}
+
+.items {
+  float: left;
+  border: solid #ffffff 2px;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.items2 {
+  float: left;
+  border: solid #ffffff 2px;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: inline-block;
+  align-items: center;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: larger;
+  margin: 0.5rem 2rem;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: none;
+}
+
+.linksdrop {
+    background-color: #0066cc;
+    display: inline-block;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: larger;
+    margin: 0.5rem 2rem;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .linksdrop2 {
+    background-color: #0066cc;
+    display: inline-block;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: larger;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+    .linksdrop2 {
+    background-color: #0066cc;
+    display: inline-block;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: larger;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+.links2 {
+  display: inline-block;
+  align-items: center;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: larger;
+  margin: 0.5rem 2rem;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+.links:hover {
+  color: #cccccc;
+}
+
+.links2:hover {
+  color: #cccccc;
+}
+
+.btnReserva {
+  background-color: #dd0832;
+  color: #ffffff;
+  text-justify: auto;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: larger;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 5px 8px 9px -10px #3b3b3b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  margin-right: 6%;
+  margin-bottom: 0.5rem;
+  margin-top: -0.75rem;
+}
+
+.btnReserva:hover {
+  background-color: #dd0832;
+  color:#ffffff;
+  box-shadow: 3px 3px 8px 3px #3b3b3b;
+}
+
+.btnReserva:active {
+  background-color: #cc0832;
+  box-shadow: inset 3px 3px 8px 3px #3b3b3b;
+  color:#ffffff;
+  border-radius: 0.75rem;
+}
